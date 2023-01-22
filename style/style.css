@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&family=Noto+Sans+JP:wght@100;400;500;700&family=Open+Sans:ital,wght@0,400;0,700;1,700&family=Poppins:wght@300;500;600;700&family=Work+Sans:wght@500;700&display=swap");
+
+* {
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+}
+.bg-gradiant {
+  background: linear-gradient(to right, #ff8235, #ff0803);
+}
+.pinkish-grasient{
+    background: linear-gradient(to right, #ffcdd5, #fff7f7);
+}
+.gray-grasient{
+    background: linear-gradient(to right, #b1b1b1, #f0f0f0);
+}
+.bg-subtle{
+    background: #fff3f5;
+}
+.gray-color{
+  background: #e7e7e7;
+}
+#pilot {
+  right: 31%;
+  bottom: 7%;
+}
+.text-color {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #ff8235 0%, #ff0803 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#client {
+  left: -6px;
+  top: -23px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  z-index: 999;
+}
+#middle-card {
+  right: 50px;
+  margin: -70px 0 -70px 0;
+}
+@media screen and (max-width: 768px) {
+  #middle-card {
+    right: 0;
+    margin: -70px 0 -70px 0;
+  } 
+  #gridd .cupss{
+    flex-direction: column-reverse;
+  }
+}
